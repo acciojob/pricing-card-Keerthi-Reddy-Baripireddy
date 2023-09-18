@@ -1,16 +1,64 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing Card</title>
+    <style>
+        /* Overall card styling */
+        .card {
+            width: 300px;
+            padding: 20px;
+            background-color: #f7f7f7;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+
+        /* Image styling */
+        .card img {
+            width: 100%;
+            max-height: 150px;
+            object-fit: cover;
+        }
+
+        /* Title styling */
+        .card h1 {
+            font-size: 24px;
+            margin: 10px 0;
+        }
+
+        /* Pricing information styling */
+        .card p.price {
+            font-size: 18px;
+            color: #333;
+        }
+
+        /* Description styling */
+        .card p.description {
+            font-size: 14px;
+            color: #777;
+        }
+
+        /* Buy Now button styling */
+        .card button {
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 15px;
+        }
+    </style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
+    <div class="card">
+        <img src="https://img.freepik.com/free-vector/gradient-golden-luxury-wedding-invitation-with-photo_52683-69309.jpg?w=2000" alt="Product Image" width="100px" height="100px">
+        <h1>Pricing Card</h1>
+        <p class="price:">Rs.200</p>
+        <p class="description">Sample Wedding Card</p>
+        <button>Buy Now</button>
+    </div>
 </body>
-
 </html>
